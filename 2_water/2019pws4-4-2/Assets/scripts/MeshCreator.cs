@@ -23,8 +23,8 @@ public class MeshCreator : MonoBehaviour
         Vector3[] a_normal = new Vector3[num_verticies];
         Vector2[] a_uv = new Vector2[num_verticies];
 
-        float dX = sizeX / (float)nZ;
-        float dZ = (float)nZ;
+        float dX = sizeX / (float)nX;
+        float dZ = sizeX / (float)nZ;
         int idx = 0;
         float fz = -0.5f * sizeZ;
         for(int z=0;z<=nZ;z++)
